@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'dm_sansbold';
+    src: url('./../dmsans-bold-webfont.woff2/fonts/') format('woff2'),
+         url('dmsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dm_sansmedium';
+    src: url('./../fonts/dmsans-medium-webfont.woff2') format('woff2'),
+         url('dmsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dm_sansregular';
+    src: url('./../fonts/dmsans-regular-webfont.woff2') format('woff2'),
+         url('dmsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.header__main-real {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.header__main-real {
+    font-family: 'dm_sansregular';
+    display: flex;
+    font-size: 18px;
+}
+.menu__link {
+    list-style-type:  none;
+    padding: 0px 50px 0px 50px;
+}
+.logo {
+    padding-right: 450px;
+}
+.header__icons {
+    /* padding: 0px 50px 0px 50px; */
+}
+.only-for-margin {
+    padding: 0px 20px 0px 20px;
+}
